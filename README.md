@@ -7,9 +7,9 @@
 
 #### [1] Service Discovery
 * Spring Cloud Netflix Eureka
-1. @EnableDiscoveryClient
+  1. @EnableDiscoveryClient
 
-2. @EnableEurekaServer
+  2. @EnableEurekaServer
 
 
 #### [2] Service 등록
