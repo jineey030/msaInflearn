@@ -7,9 +7,12 @@
 
 #### [1] Service Discovery
 ##### Spring Cloud Netflix Eureka
-######  1) @EnableDiscoveryClient
-######  2) @EnableEurekaServer
+1. @EnableDiscoveryClient
+
+2. @EnableEurekaServer
+
 
 #### [2] Service 등록
-#####  1) User-service
-#####  2) 랜덤 포트 설정
+1. User-service
+
+2. 랜덤 포트 설정
