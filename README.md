@@ -5,7 +5,7 @@
 ### ✅ 강좌명: Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA)
 ### 👨‍💻 강사명: Dowon Lee
 
-[1] Service Discovery
+[1] Service Discovery \n
   => Spring Cloud Netflix Eureka
     1) @EnableDiscoveryClient
     2) @EnableEurekaServer
