@@ -6,7 +6,7 @@
 ### 👨‍💻 강사명: Dowon Lee
 
 #### [1] Service Discovery
-##### Spring Cloud Netflix Eureka
+* Spring Cloud Netflix Eureka
 1. @EnableDiscoveryClient
 
 2. @EnableEurekaServer
