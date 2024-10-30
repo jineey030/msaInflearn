@@ -16,3 +16,10 @@
 1. User-service
 
 2. 랜덤 포트 설정
+
+
+#### [3] API GATEWAY 설정
+1. Netflix Zuul
+(※ 2018. 12. ~ : Maintenance Mode -> SpringBoot 2.4.x부터 제공되지 않음)
+
+2. Spring Cloud Gateway
