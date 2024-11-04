@@ -33,3 +33,5 @@
 3. Custom Filter 설정
 
 4. Global Filter 설정
+
+5. Logging Filter 설정
