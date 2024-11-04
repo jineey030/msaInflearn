@@ -30,4 +30,4 @@
 
 #### ※ spring-cloud-starter-gateway-mvc 를 주입하여 실행 시, apigateway-service의 Application.yml 설정 주의할 것.
 
-3. Custom Filter 적용
+3. Custom Filter 설정
