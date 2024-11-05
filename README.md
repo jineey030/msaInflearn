@@ -35,3 +35,5 @@
 4. Global Filter 설정
 
 5. Logging Filter 설정
+
+6. Load Balancer 설정 (Eureka Discovery Server)
