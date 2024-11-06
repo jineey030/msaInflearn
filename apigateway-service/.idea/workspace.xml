@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="[commit] add Load Balancer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-service/src/main/java/com/example/firstservice/FirstServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../first-service/src/main/java/com/example/firstservice/FirstServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../first-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../second-service/src/main/java/com/example/secondservice/SecondServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../second-service/src/main/java/com/example/secondservice/SecondServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../second-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../second-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-service/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second-service/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
