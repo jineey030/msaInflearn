@@ -37,3 +37,10 @@
 5. Logging Filter 설정
 
 6. Load Balancer 설정 (Eureka Discovery Server + Random port)
+
+
+#### [4] User-service 생성
+
+1. User-service 기본 설정
+
+2. H2 Database 연동
