@@ -6,6 +6,7 @@ import com.example.euserservice.jpa.UserRepository;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -13,8 +14,14 @@ import java.util.UUID;
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Autowired
     UserRepository userRepository;
+    BCryptPasswordEncoder passwordEncoder;
+
+    @Autowired
+    public UserServiceImpl(UserRepository userRepository, BCryptPasswordEncoder passwordEncoder) {
+        this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
+    }
 
     @Override
     public UserDto crateUser(UserDto userDto) {
@@ -22,9 +29,9 @@ public class UserServiceImpl implements UserService {
         
         //클래스 변환
         ModelMapper mapper = new ModelMapper();
-        mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT); //환경 설정 정보(딱 맞아 떨어질 경우에만 실행하도록 전략)
-        UserEntity userEntity = mapper.map(userDto, UserEntity.class); //변환 시작
-        userEntity.setEncryptPwd("encrypted_password"); //구현 전이므로 default값 저장
+        mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+        UserEntity userEntity = mapper.map(userDto, UserEntity.class);
+        userEntity.setEncryptPwd(passwordEncoder.encode(userDto.getPwd())); //비밀번호 암호화 추가
         
         userRepository.save(userEntity);
 
