@@ -44,3 +44,7 @@
 1. User-service 기본 설정
 
 2. H2 Database 연동
+
+3. 회원가입(H2 Database save)
+
+4. 비밀번호 암호화 설정
