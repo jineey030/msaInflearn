@@ -32,6 +32,10 @@ public class WebSecurity {
     private BCryptPasswordEncoder bCryptPasswordEncoder;
     private Environment env;
 
+    public static final String ALLOWED_IP_ADDRESS = "127.0.0.1";
+    public static final String SUBNET = "/32";
+    public static final IpAddressMatcher ALLOWED_IP_ADDRESS_MATCHER = new IpAddressMatcher(ALLOWED_IP_ADDRESS + SUBNET);
+
     public WebSecurity(Environment env, UserService userService, BCryptPasswordEncoder bCryptPasswordEncoder) {
         this.env = env;
         this.userService = userService;
@@ -43,6 +47,7 @@ public class WebSecurity {
         // Configure AuthenticationManagerBuilder
         AuthenticationManagerBuilder authenticationManagerBuilder =
                 http.getSharedObject(AuthenticationManagerBuilder.class);
+        //authenticationManagerBuilder.userDetailsService(userService).passwordEncoder(bCryptPasswordEncoder);
 
         AuthenticationManager authenticationManager = authenticationManagerBuilder.build();
 
@@ -60,16 +65,27 @@ public class WebSecurity {
                                 .requestMatchers(new AntPathRequestMatcher("/v3/api-docs/**")).permitAll()
 //                        .requestMatchers("/**").access(this::hasIpAddress)
                                 .requestMatchers("/**").access(
-                                        new WebExpressionAuthorizationManager("hasIpAddress('localhost') or hasIpAddress('127.0.0.1') or hasIpAddress('172.30.96.94')")) // host pc ip address
+                                        new WebExpressionAuthorizationManager(//"hasIpAddress('localhost') or " +
+                                                "hasIpAddress('127.0.0.1') or hasIpAddress('192.168.0.100')")) // host pc ip address
                                 .anyRequest().authenticated()
                 )
                 .authenticationManager(authenticationManager)
                 .sessionManagement((session) -> session
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS));
 
+        //현재 단계 미사용
+//        http.addFilter(getAuthenticationFilter(authenticationManager));
         http.headers((headers) -> headers.frameOptions((frameOptions) -> frameOptions.sameOrigin()));
 
         return http.build();
     }
+
+    private AuthorizationDecision hasIpAddress(Supplier<Authentication> authentication, RequestAuthorizationContext object) {
+        return new AuthorizationDecision(ALLOWED_IP_ADDRESS_MATCHER.matches(object.getRequest()));
+    }
+
+//    private AuthenticationFilter getAuthenticationFilter(AuthenticationManager authenticationManager) throws Exception {
+//        return new AuthenticationFilter(authenticationManager, userService, env);
+//    }
 
 }

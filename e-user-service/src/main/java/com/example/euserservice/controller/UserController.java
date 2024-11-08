@@ -1,6 +1,7 @@
 package com.example.euserservice.controller;
 
 import com.example.euserservice.dto.UserDto;
+import com.example.euserservice.jpa.UserEntity;
 import com.example.euserservice.service.UserService;
 import com.example.euserservice.vo.Greeting;
 import com.example.euserservice.vo.RequestUser;
@@ -11,10 +12,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @RestController
-@RequestMapping("/")
+@RequestMapping("/e-user-service/")
 public class UserController {
 
     private Environment env;
@@ -31,7 +36,7 @@ public class UserController {
 
     @GetMapping("/health_check")
     public String status(){
-        return "It's Working in User Service";
+        return String.format("It's Working in User Service on PORT %s", env.getProperty("local.server.port"));
     }
 
     @GetMapping("/welcome")
@@ -51,6 +56,25 @@ public class UserController {
         ResponseUser responseUser = mapper.map(userDto, ResponseUser.class);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(responseUser);
+    }
+
+    @GetMapping("/users")
+    public ResponseEntity<List<ResponseUser>> getUsers(){
+        Iterable<UserEntity> userList = userService.getUsersByAll();
+
+        List<ResponseUser> result = new ArrayList<>();
+        userList.forEach(v -> {
+            result.add(new ModelMapper().map(v, ResponseUser.class));
+        });
+        return ResponseEntity.status(HttpStatus.OK).body(result);
+    }
+
+    @GetMapping("/users/{userId}")
+    public ResponseEntity<ResponseUser> getUser(@PathVariable("userId") String userId){
+        UserDto userDto = userService.getUserByUserId(userId);
+
+        ResponseUser returnValue = new ModelMapper().map(userDto, ResponseUser.class);
+        return ResponseEntity.status(HttpStatus.OK).body(returnValue);
     }
 
 }
