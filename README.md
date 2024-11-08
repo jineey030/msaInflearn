@@ -48,3 +48,13 @@
 3. 회원가입(H2 Database save)
 
 4. 비밀번호 암호화 설정
+
+5. 기능 추가: 전체 사용자 조회, 아이디로 사용자 조회
+
+#### [5] catalog-service 생성
+
+1. catalog-service 기본 설정
+
+2. H2 Database에 초기 데이터 INSERT
+
+3. 기능 추가: 전체 카탈로그 조회
