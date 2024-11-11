@@ -33,7 +33,7 @@ public class CatalogController {
                             env.getProperty("local.server.port"));
     }
 
-    @GetMapping("/users")
+    @GetMapping("/catalogs")
     public ResponseEntity<List<ResponseCatalog>> getCatalogs(){
         Iterable<CatalogEntity> catalogList = catalogService.getAllCatalogs();
 
