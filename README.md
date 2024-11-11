@@ -58,3 +58,9 @@
 2. H2 Database에 초기 데이터 INSERT
 
 3. 기능 추가: 전체 카탈로그 조회
+
+#### [6] order-service 생성
+
+1. order-service 기본 설정
+
+2. 기능 추가: 주문번호로 조회, 주문 추가
