@@ -2,9 +2,10 @@ package com.example.euserservice.service;
 
 import com.example.euserservice.dto.UserDto;
 import com.example.euserservice.jpa.UserEntity;
+import org.springframework.security.core.userdetails.UserDetailsService;
 
-public interface UserService {
+public interface UserService extends UserDetailsService {
     UserDto crateUser(UserDto userDto);
     UserDto getUserByUserId(String userId);
-    Iterable<UserEntity> getUsersByAll(); //가공하지 않고 그대로 사용하기 때문에 UserEntity 작성
+    Iterable<UserEntity> getUsersByAll();
 }

@@ -7,18 +7,19 @@
     <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="[commit] add Load Balancer">
       <change afterPath="$PROJECT_DIR$/../catalog-service/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../catalog-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/security/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/vo/RequestLogin.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../first-service/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-serivce/src/main/java/com/example/orderserivce/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-serivce/src/main/java/com/example/orderserivce/dto/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-serivce/src/main/java/com/example/orderserivce/jpa/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-serivce/src/main/java/com/example/orderserivce/jpa/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-serivce/src/main/java/com/example/orderserivce/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-serivce/src/main/java/com/example/orderserivce/service/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-serivce/src/main/java/com/example/orderserivce/vo/RequestOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-serivce/src/main/java/com/example/orderserivce/vo/ResponseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order-serivce/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order-serivce/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalog-service/src/main/java/com/example/catalogservice/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../catalog-service/src/main/java/com/example/catalogservice/controller/CatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/jpa/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/jpa/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +75,10 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ApigatewayServiceApplication.executor": "Run",
+    "Spring Boot.ApigatewayServiceApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/msaInflearn/catalog-service",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/msaInflearn/ecoomerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -134,6 +135,8 @@
       <workItem from="1731040009892" duration="5190000" />
       <workItem from="1731287200389" duration="1163000" />
       <workItem from="1731301440298" duration="908000" />
+      <workItem from="1731310863943" duration="2655000" />
+      <workItem from="1731389250584" duration="4663000" />
     </task>
     <task id="LOCAL-00001" summary="[commit] apigateway-service commit">
       <option name="closed" value="true" />
