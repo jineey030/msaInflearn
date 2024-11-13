@@ -34,7 +34,6 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     public Authentication attemptAuthentication(HttpServletRequest req, HttpServletResponse res)
             throws AuthenticationException {
         try {
-
             RequestLogin creds = new ObjectMapper().readValue(req.getInputStream(), RequestLogin.class);
 
             return getAuthenticationManager().authenticate(
@@ -44,6 +43,7 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
             throw new RuntimeException(e);
         }
     }
+
 
     @Override
     protected void successfulAuthentication(HttpServletRequest req, HttpServletResponse res, FilterChain chain,

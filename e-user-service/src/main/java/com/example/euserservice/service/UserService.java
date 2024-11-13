@@ -5,7 +5,8 @@ import com.example.euserservice.jpa.UserEntity;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 public interface UserService extends UserDetailsService {
-    UserDto crateUser(UserDto userDto);
+    UserDto createUser(UserDto userDto);
     UserDto getUserByUserId(String userId);
-    Iterable<UserEntity> getUsersByAll();
+    Iterable<UserEntity> getUserByAll();
+    UserDto getUserDetailsByEmail(String userName);
 }

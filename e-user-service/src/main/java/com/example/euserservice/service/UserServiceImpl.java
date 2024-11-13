@@ -12,7 +12,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.ui.Model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,32 +30,20 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public UserDto crateUser(UserDto userDto) {
+    public UserDto createUser(UserDto userDto) {
         userDto.setUserId(UUID.randomUUID().toString());
         
         //클래스 변환
         ModelMapper mapper = new ModelMapper();
         mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
         UserEntity userEntity = mapper.map(userDto, UserEntity.class);
-        userEntity.setEncryptPwd(passwordEncoder.encode(userDto.getPwd())); //비밀번호 암호화 추가
+        userEntity.setEncryptedPwd(passwordEncoder.encode(userDto.getPwd())); //비밀번호 암호화 추가
         
         userRepository.save(userEntity);
 
         UserDto returnUserDto = mapper.map(userEntity, UserDto.class);
 
         return returnUserDto;
-    }
-
-    @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        UserEntity userEntity = userRepository.findByEmail(username);
-
-        if(userEntity == null) {
-            throw new UsernameNotFoundException(username);
-        }
-
-        return new User(userEntity.getName(), userEntity.getEncryptPwd(),
-                true, true, true, true, new ArrayList<>());
     }
 
     @Override
@@ -77,7 +64,32 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Iterable<UserEntity> getUsersByAll() {
+    public Iterable<UserEntity> getUserByAll() {
         return userRepository.findAll(); //기본제공, 조건없이 모든 데이터 반환
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        UserEntity userEntity = userRepository.findByEmail(username);
+
+        if (userEntity == null)
+            throw new UsernameNotFoundException(username + ": not found");
+
+        return new User(userEntity.getEmail(), userEntity.getEncryptedPwd(),
+                true, true, true, true,
+                new ArrayList<>());
+    }
+
+    @Override
+    public UserDto getUserDetailsByEmail(String email) {
+        UserEntity userEntity = userRepository.findByEmail(email);
+        if (userEntity == null)
+            throw new UsernameNotFoundException(email);
+
+        ModelMapper mapper = new ModelMapper();
+        mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+
+        UserDto userDto = mapper.map(userEntity, UserDto.class);
+        return userDto;
     }
 }

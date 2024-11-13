@@ -51,7 +51,7 @@ public class UserController {
         mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
 
         UserDto userDto = mapper.map(user, UserDto.class);
-        userService.crateUser(userDto);
+        userService.createUser(userDto);
 
         ResponseUser responseUser = mapper.map(userDto, ResponseUser.class);
 
@@ -60,7 +60,7 @@ public class UserController {
 
     @GetMapping("/users")
     public ResponseEntity<List<ResponseUser>> getUsers(){
-        Iterable<UserEntity> userList = userService.getUsersByAll();
+        Iterable<UserEntity> userList = userService.getUserByAll();
 
         List<ResponseUser> result = new ArrayList<>();
         userList.forEach(v -> {
@@ -76,5 +76,7 @@ public class UserController {
         ResponseUser returnValue = new ModelMapper().map(userDto, ResponseUser.class);
         return ResponseEntity.status(HttpStatus.OK).body(returnValue);
     }
+
+
 
 }

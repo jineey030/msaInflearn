@@ -39,16 +39,16 @@ public class WebSecurity {
     }
 
     @Bean
-    protected SecurityFilterChain configure(HttpSecurity http) throws Exception { //권한
+    protected SecurityFilterChain configure(HttpSecurity http) throws Exception {
         // Configure AuthenticationManagerBuilder
         AuthenticationManagerBuilder authenticationManagerBuilder =
                 http.getSharedObject(AuthenticationManagerBuilder.class);
-        //authenticationManagerBuilder.userDetailsService(userService).passwordEncoder(bCryptPasswordEncoder);
+        authenticationManagerBuilder.userDetailsService(userService).passwordEncoder(bCryptPasswordEncoder);
 
         AuthenticationManager authenticationManager = authenticationManagerBuilder.build();
 
         http.csrf( (csrf) -> csrf.disable());
-        //http.csrf(AbstractHttpConfigurer::disable);
+//        http.csrf(AbstractHttpConfigurer::disable);
 
         http.authorizeHttpRequests((authz) -> authz
                                 .requestMatchers(new AntPathRequestMatcher("/actuator/**")).permitAll()
@@ -59,18 +59,17 @@ public class WebSecurity {
                                 .requestMatchers(new AntPathRequestMatcher("/swagger-ui/**")).permitAll()
                                 .requestMatchers(new AntPathRequestMatcher("/swagger-resources/**")).permitAll()
                                 .requestMatchers(new AntPathRequestMatcher("/v3/api-docs/**")).permitAll()
-                        //.requestMatchers("/**").access(this::hasIpAddress)
+//                        .requestMatchers("/**").access(this::hasIpAddress)
                                 .requestMatchers("/**").access(
                                         new WebExpressionAuthorizationManager(//"hasIpAddress('localhost') or " +
-                                                "hasIpAddress('127.0.0.1') or hasIpAddress('192.168.0.100')")) // host pc ip address (ip 변경)
+                                                "hasIpAddress('127.0.0.1') or hasIpAddress('172.30.96.94')")) // host pc ip address
                                 .anyRequest().authenticated()
                 )
                 .authenticationManager(authenticationManager)
                 .sessionManagement((session) -> session
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS));
 
-        //현재 단계 미사용
-        //http.addFilter(getAuthenticationFilter(authenticationManager));
+        http.addFilter(getAuthenticationFilter(authenticationManager));
         http.headers((headers) -> headers.frameOptions((frameOptions) -> frameOptions.sameOrigin()));
 
         return http.build();
@@ -80,12 +79,8 @@ public class WebSecurity {
         return new AuthorizationDecision(ALLOWED_IP_ADDRESS_MATCHER.matches(object.getRequest()));
     }
 
-//    private AuthenticationFilter getAuthenticationFilter(AuthenticationManager authenticationManager) throws Exception {
-//        return new AuthenticationFilter(authenticationManager, userService, env);
-//    }
-
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(userService).passwordEncoder(bCryptPasswordEncoder);
+    private AuthenticationFilter getAuthenticationFilter(AuthenticationManager authenticationManager) throws Exception {
+        return new AuthenticationFilter(authenticationManager, userService, env);
     }
 
 }
