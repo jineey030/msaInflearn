@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="[commit] add Load Balancer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apigatewayservice/config/AuthorizationHeaderFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../catalog-service/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../catalog-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/security/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/vo/RequestLogin.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../first-service/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../order-serivce/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../order-serivce/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/jpa/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/jpa/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/security/WebSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ApigatewayServiceApplication.executor": "Debug",
+    "Spring Boot.ApigatewayServiceApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/admin/IdeaProjects/msaInflearn/ecoomerce",
