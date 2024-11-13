@@ -69,4 +69,6 @@
 
 1. WebSecurity, AuthenticationFilter 설정
 
-2. JWT 인증 추가 (user-service, api gateway service)
+2. JWT 인증 추가 (user-service)
+
+3. 인가 추가(api gateway service)
