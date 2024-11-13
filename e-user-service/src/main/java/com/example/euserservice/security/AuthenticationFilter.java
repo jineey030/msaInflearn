@@ -1,8 +1,12 @@
 package com.example.euserservice.security;
 
+import com.example.euserservice.dto.UserDto;
 import com.example.euserservice.service.UserService;
 import com.example.euserservice.vo.RequestLogin;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.security.Keys;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -13,10 +17,15 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+import javax.crypto.SecretKey;
 import java.io.IOException;
+import java.time.Instant;
 import java.util.ArrayList;
+import java.util.Base64;
+import java.util.Date;
 
 @Slf4j
 public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
@@ -49,23 +58,23 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     protected void successfulAuthentication(HttpServletRequest req, HttpServletResponse res, FilterChain chain,
                                             Authentication auth) throws IOException, ServletException {
 
-//            String userName = ((User) auth.getPrincipal()).getUsername();
-//            UserDto userDetails = userService.getUserDetailsByEmail(userName);
-//
-//            byte[] secretKeyBytes = Base64.getEncoder().encode(environment.getProperty("token.secret").getBytes());
-//
-//            SecretKey secretKey = Keys.hmacShaKeyFor(secretKeyBytes);
-//
-//            Instant now = Instant.now();
-//
-//            String token = Jwts.builder()
-//                    .subject(userDetails.getUserId())
-//                    .expiration(Date.from(now.plusMillis(Long.parseLong(environment.getProperty("token.expiration_time")))))
-//                    .issuedAt(Date.from(now))
-//                    .signWith(secretKey)
-//                    .compact();
-//
-//            res.addHeader("token", token);
-//            res.addHeader("userId", userDetails.getUserId());
+        String userName = ((User) auth.getPrincipal()).getUsername();
+        UserDto userDetails = userService.getUserDetailsByEmail(userName);
+
+        byte[] secretKeyBytes = Base64.getEncoder().encode(environment.getProperty("token.secret").getBytes());
+
+        SecretKey secretKey = Keys.hmacShaKeyFor(secretKeyBytes);
+
+        Instant now = Instant.now();
+
+        String token = Jwts.builder()
+                .setSubject(userDetails.getUserId())
+                .setExpiration(Date.from(now.plusMillis(Long.parseLong(environment.getProperty("token.expiration_time")))))
+                .setIssuedAt(Date.from(now))
+                .signWith(secretKey)
+                .compact();
+
+        res.addHeader("token", token);
+        res.addHeader("userId", userDetails.getUserId());
     }
 }
