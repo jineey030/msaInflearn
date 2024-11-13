@@ -64,3 +64,7 @@
 1. order-service 기본 설정
 
 2. 기능 추가: 주문번호로 조회, 주문 추가
+
+#### [7] 로그인 기능
+
+1. WebSecurity, AuthenticationFilter 설정
