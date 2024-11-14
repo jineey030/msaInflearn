@@ -10,6 +10,11 @@ spring:
   datasource:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
+  cloud:
+    config:
+      name: ecommerce
+  config:
+    import: configserver:http://127.0.0.1:8888
 
 server:
   port: 0
@@ -30,6 +35,6 @@ logging:
   level:
     com.example.euserservice: DEBUG
 
-token:
-  expiration_time: 86400000 #하루
-  secret: make_my_secret_user_token #임의
+#token:
+#  expiration_time: 86400000 #하루
+#  secret: make_my_secret_user_token #임의

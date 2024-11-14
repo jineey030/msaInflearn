@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="[commit] add Load Balancer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apigatewayservice/config/AuthorizationHeaderFilter.java" afterDir="false" />
+    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="Update authorization to API Gateway">
       <change afterPath="$PROJECT_DIR$/../catalog-service/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../catalog-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e-user-service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../first-service/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../order-serivce/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../order-serivce/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="jineey &lt;ohyejin9816@gmail.com&gt;" />
         <option value="Oh Yejin &lt;ohyejin9816@gmail.com&gt;" />
       </list>
     </option>
@@ -132,6 +133,7 @@
       <workItem from="1731301440298" duration="908000" />
       <workItem from="1731310863943" duration="2655000" />
       <workItem from="1731389250584" duration="4663000" />
+      <workItem from="1731542211541" duration="7106000" />
     </task>
     <task id="LOCAL-00001" summary="[commit] apigateway-service commit">
       <option name="closed" value="true" />
@@ -165,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730787554372</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update authorization to API Gateway">
+      <option name="closed" value="true" />
+      <created>1731542307922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731542307922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +186,8 @@
     <MESSAGE value="[commit] gateway custom filter setting" />
     <MESSAGE value="[commit] add global filter" />
     <MESSAGE value="[commit] add Load Balancer" />
-    <option name="LAST_COMMIT_MESSAGE" value="[commit] add Load Balancer" />
+    <MESSAGE value="Update authorization to API Gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update authorization to API Gateway" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
