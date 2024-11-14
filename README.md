@@ -72,3 +72,9 @@
 2. JWT 인증 추가 (user-service)
 
 3. 인가 추가(api gateway service)
+
+#### [8] Config Service 
+
+1. config-service 생성
+
+2. user-service 에 config 서버 연결
