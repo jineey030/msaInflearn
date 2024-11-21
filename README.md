@@ -82,3 +82,5 @@
 3. Api Gateway에 Config 서버 연결
 
 4. user-service, Api Gateway에 Actuator 설정 추가
+
+5. multiple environment 추가
