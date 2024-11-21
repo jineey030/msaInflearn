@@ -78,3 +78,7 @@
 1. config-service 생성
 
 2. user-service 에 config 서버 연결
+
+3. Api Gateway에 Config 서버 연결
+
+4. user-service, Api Gateway에 Actuator 설정 추가
