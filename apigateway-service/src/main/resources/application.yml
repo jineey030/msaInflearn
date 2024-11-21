@@ -35,6 +35,14 @@ spring:
         - id: e-user-service
           uri: lb://E-USER-SERVICE
           predicates:
+            - Path=/e-user-service/actuator/**
+            - Method=GET,POST
+          filters:
+            - RemoveRequestHeader=Cookie
+            - RewritePath=/e-user-service/(?<segment>.*), /$\{segment}
+        - id: e-user-service
+          uri: lb://E-USER-SERVICE
+          predicates:
             - Path=/e-user-service/**
             - Method=GET
           filters:
@@ -68,7 +76,10 @@ spring:
             baseMessage: Spring Cloud Gateway Global Filter
             preLogger: true
             postLogger: true
-
+    config:
+        name: ecommerce
+  config:
+      import: configserver:http://127.0.0.1:8888
 
 server:
   port: 8000
@@ -82,3 +93,9 @@ eureka:
 
 token:
   secret: make_my_secret_user_token #임의
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans, httpexchanges

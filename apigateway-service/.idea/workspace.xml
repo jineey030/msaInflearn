@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="Update authorization to API Gateway">
+    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add actuator config">
+      <changelist_data name="jineey" email="ohyejin9816@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apigatewayservice/config/ActuatorHttpExchangesConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/apigatewayservice/config/ActuatorHttpExchangesConfiguration.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../catalog-service/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../catalog-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e-user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-service/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../first-service/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../order-serivce/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../order-serivce/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,26 +71,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ApigatewayServiceApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/msaInflearn/ecoomerce",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApigatewayServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/msaInflearn/ecoomerce&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -133,7 +140,8 @@
       <workItem from="1731301440298" duration="908000" />
       <workItem from="1731310863943" duration="2655000" />
       <workItem from="1731389250584" duration="4663000" />
-      <workItem from="1731542211541" duration="7106000" />
+      <workItem from="1731542211541" duration="7107000" />
+      <workItem from="1732152895626" duration="7476000" />
     </task>
     <task id="LOCAL-00001" summary="[commit] apigateway-service commit">
       <option name="closed" value="true" />
@@ -175,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731542307922</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add actuator config">
+      <option name="closed" value="true" />
+      <created>1732170678103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732170678103</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +203,18 @@
     <MESSAGE value="[commit] add global filter" />
     <MESSAGE value="[commit] add Load Balancer" />
     <MESSAGE value="Update authorization to API Gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update authorization to API Gateway" />
+    <MESSAGE value="add actuator config" />
+    <option name="LAST_COMMIT_MESSAGE" value="add actuator config" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
