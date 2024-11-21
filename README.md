@@ -5,6 +5,10 @@
 ### ✅ 강좌명: Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA)
 ### 👨‍💻 강사명: Dowon Lee
 
+### 정보
+1. IntelliJ IDEA 2024.2.4
+2. SpringBoot 3.3.5
+
 #### [1] Service Discovery
 * Spring Cloud Netflix Eureka
   1. @EnableDiscoveryClient
