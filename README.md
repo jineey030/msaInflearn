@@ -95,3 +95,7 @@
 
 2. API Gateway Service, Config Server, User-service 에 rabbitMQ 설정 정보 등록
 
+#### [10] Config 설정 정보 암호화
+
+1. H2 Datasource password Encrypt #1 (대칭키)
+
