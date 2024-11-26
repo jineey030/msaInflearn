@@ -88,3 +88,10 @@
 4. user-service, Api Gateway에 Actuator 설정 추가
 
 5. multiple environment 추가
+
+#### [9] Spring Cloud Bus (AMQP) 설정
+
+1. RabbitMQ 설치
+
+2. API Gateway Service, Config Server, User-service 에 rabbitMQ 설정 정보 등록
+
