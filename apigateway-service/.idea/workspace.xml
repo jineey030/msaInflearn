@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add actuator config">
-      <change afterPath="$PROJECT_DIR$/../config-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-files/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26__4_16__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26_오후_4_16_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26_오후_4_16_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27__10_23__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27_오전_10_23_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27_오전_10_23_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-files/ecommerce.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-files/ecommerce.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +138,7 @@
       <workItem from="1731542211541" duration="7107000" />
       <workItem from="1732152895626" duration="8838000" />
       <workItem from="1732579842599" duration="5653000" />
+      <workItem from="1732670811479" duration="405000" />
     </task>
     <task id="LOCAL-00001" summary="[commit] apigateway-service commit">
       <option name="closed" value="true" />

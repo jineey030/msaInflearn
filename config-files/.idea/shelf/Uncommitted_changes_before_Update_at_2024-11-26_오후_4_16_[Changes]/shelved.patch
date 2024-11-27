@@ -1,0 +1,156 @@
+Index: ../apigateway-service/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5efe8b6d-c842-4fbb-904b-05c436a57c6d\" name=\"Changes\" comment=\"add actuator config\">\r\n      <change afterPath=\"$PROJECT_DIR$/../config-files/.idea/config-files.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../config-service/.idea/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../config-service/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../config-service/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../config-service/.idea/jarRepositories.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../config-service/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../config-service/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../config-service/target/classes/com/example/configservice/ConfigServiceApplication.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/application.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/bootstrap.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/bootstrap.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/application.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/application.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/bootstrap.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/bootstrap.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../config-service/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../config-service/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../e-user-service/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../e-user-service/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../e-user-service/src/main/resources/application.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../e-user-service/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../e-user-service/src/main/resources/bootstrap.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../e-user-service/src/main/resources/bootstrap.yml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"jineey &lt;ohyejin9816@gmail.com&gt;\" />\r\n        <option value=\"Oh Yejin &lt;ohyejin9816@gmail.com&gt;\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;jineey030&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/jineey030/msaInflearn.git&quot;,\r\n    &quot;accountId&quot;: &quot;2e9f552e-690e-4224-b769-8b96365c12b4&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHomeTypeForPersistence\" value=\"WRAPPER\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2oBOmJpQAOgFhfKOJjf4gY6SbD1\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RequestMappingsPanelOrder0\": \"0\",\r\n    \"RequestMappingsPanelOrder1\": \"1\",\r\n    \"RequestMappingsPanelWidth0\": \"75\",\r\n    \"RequestMappingsPanelWidth1\": \"75\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"Spring Boot.ApigatewayServiceApplication.executor\": \"Debug\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/admin/IdeaProjects/msaInflearn/ecoomerce\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"reference.settings.project.maven.repository.indices\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ReactorSettings\">\r\n    <option name=\"notificationShown\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"com.example.apigatewayservice.filter\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"ApigatewayServiceApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"apigateway-service\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.apigatewayservice.ApigatewayServiceApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5efe8b6d-c842-4fbb-904b-05c436a57c6d\" name=\"Changes\" comment=\"\" />\r\n      <created>1730339660974</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1730339660974</updated>\r\n      <workItem from=\"1730339661916\" duration=\"5238000\" />\r\n      <workItem from=\"1730350707755\" duration=\"2886000\" />\r\n      <workItem from=\"1730353618106\" duration=\"2597000\" />\r\n      <workItem from=\"1730356290551\" duration=\"588000\" />\r\n      <workItem from=\"1730357510288\" duration=\"4733000\" />\r\n      <workItem from=\"1730425532888\" duration=\"12730000\" />\r\n      <workItem from=\"1730692174463\" duration=\"6804000\" />\r\n      <workItem from=\"1730779369352\" duration=\"2822000\" />\r\n      <workItem from=\"1730786296370\" duration=\"635000\" />\r\n      <workItem from=\"1730787087570\" duration=\"189000\" />\r\n      <workItem from=\"1730787284586\" duration=\"2022000\" />\r\n      <workItem from=\"1731040009892\" duration=\"5190000\" />\r\n      <workItem from=\"1731287200389\" duration=\"1163000\" />\r\n      <workItem from=\"1731301440298\" duration=\"908000\" />\r\n      <workItem from=\"1731310863943\" duration=\"2655000\" />\r\n      <workItem from=\"1731389250584\" duration=\"4663000\" />\r\n      <workItem from=\"1731542211541\" duration=\"7107000\" />\r\n      <workItem from=\"1732152895626\" duration=\"8838000\" />\r\n      <workItem from=\"1732579842599\" duration=\"5653000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"[commit] apigateway-service commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730361686588</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730361686588</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"[commit] gateway custom filter setting\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730692284281</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730692284281</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"[commit] add global filter\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730697232909</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730697232909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"[commit] add Load Balancer\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730787554372</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730787554372</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Update authorization to API Gateway\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731542307922</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731542307922</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"add actuator config\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732170678103</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732170678103</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"add actuator config\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732171945534</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732171945534</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"[commit] apigateway-service commit\" />\r\n    <MESSAGE value=\"[commit] gateway custom filter setting\" />\r\n    <MESSAGE value=\"[commit] add global filter\" />\r\n    <MESSAGE value=\"[commit] add Load Balancer\" />\r\n    <MESSAGE value=\"Update authorization to API Gateway\" />\r\n    <MESSAGE value=\"add actuator config\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"add actuator config\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/com/example/apigatewayservice/config/AuthorizationHeaderFilter.java</url>\r\n          <line>64</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../apigateway-service/.idea/workspace.xml b/../apigateway-service/.idea/workspace.xml
+--- a/../apigateway-service/.idea/workspace.xml	(revision 0fcb478941c304dfc79692807fc7b2d0bcb010dd)
++++ b/../apigateway-service/.idea/workspace.xml	(date 1732605365271)
+@@ -4,23 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add actuator config">
+-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/config-files.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../config-service/.idea/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../config-service/.idea/compiler.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../config-service/.idea/encodings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../config-service/.idea/jarRepositories.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../config-service/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../config-service/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../config-service/target/classes/com/example/configservice/ConfigServiceApplication.class" afterDir="false" />
++    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add RabbitMQ amqp config info">
++      <change afterPath="$PROJECT_DIR$/../config-files/user-service.yml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../config-service/src/main/resources/bootstrap.yml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.yml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../e-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/pom.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/resources/application.yml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+     </list>
+@@ -80,7 +68,7 @@
+     "RequestMappingsPanelWidth1": "75",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "Spring Boot.ApigatewayServiceApplication.executor": "Debug",
++    "Spring Boot.ApigatewayServiceApplication.executor": "Run",
+     "git-widget-placeholder": "main",
+     "kotlin-language-version-configured": "true",
+     "last_opened_file_path": "C:/Users/admin/IdeaProjects/msaInflearn/ecoomerce",
+@@ -144,7 +132,7 @@
+       <workItem from="1731389250584" duration="4663000" />
+       <workItem from="1731542211541" duration="7107000" />
+       <workItem from="1732152895626" duration="8838000" />
+-      <workItem from="1732579842599" duration="5653000" />
++      <workItem from="1732579842599" duration="7419000" />
+     </task>
+     <task id="LOCAL-00001" summary="[commit] apigateway-service commit">
+       <option name="closed" value="true" />
+@@ -202,7 +190,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1732171945534</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="add RabbitMQ amqp config info">
++      <option name="closed" value="true" />
++      <created>1732598565306</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1732598565306</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -215,7 +211,8 @@
+     <MESSAGE value="[commit] add Load Balancer" />
+     <MESSAGE value="Update authorization to API Gateway" />
+     <MESSAGE value="add actuator config" />
+-    <option name="LAST_COMMIT_MESSAGE" value="add actuator config" />
++    <MESSAGE value="add RabbitMQ amqp config info" />
++    <option name="LAST_COMMIT_MESSAGE" value="add RabbitMQ amqp config info" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: ../e-user-service/src/main/resources/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring:\r\n  application:\r\n    name: e-user-service\r\n  rabbitmq:\r\n    host: 127.0.0.1\r\n    port: 5672\r\n    username: guest\r\n    password: guest\r\n  h2:\r\n    console:\r\n      enabled: true\r\n      settings:\r\n        web-allow-others: true\r\n      path: /h2-console\r\n  datasource:\r\n    driver-class-name: org.h2.Driver\r\n    url: jdbc:h2:mem:testdb\r\n  cloud:\r\n    config:\r\n      name: ecommerce\r\n  config:\r\n    import: configserver:http://127.0.0.1:8888\r\n\r\nserver:\r\n  port: 0\r\n\r\neureka:\r\n  instance:\r\n    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}\r\n  client:\r\n    fetch-registry: true\r\n    register-with-eureka: true\r\n    service-url:\r\n      defaultZone: http://127.0.0.1:8761/eureka\r\n\r\ngreeting:\r\n  message: Welcome to the Simple E-commerce.\r\n\r\nlogging:\r\n  level:\r\n    com.example.euserservice: DEBUG\r\n\r\nmanagement:\r\n  endpoints:\r\n    web:\r\n      exposure:\r\n        include: refresh, health, beans, busrefresh\r\n\r\n#token:\r\n#  expiration_time: 86400000 #하루\r\n#  secret: make_my_secret_user_token #임의
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../e-user-service/src/main/resources/application.yml b/../e-user-service/src/main/resources/application.yml
+--- a/../e-user-service/src/main/resources/application.yml	(revision 0fcb478941c304dfc79692807fc7b2d0bcb010dd)
++++ b/../e-user-service/src/main/resources/application.yml	(date 1732604475431)
+@@ -12,9 +12,9 @@
+       settings:
+         web-allow-others: true
+       path: /h2-console
+-  datasource:
+-    driver-class-name: org.h2.Driver
+-    url: jdbc:h2:mem:testdb
++#  datasource:
++#    driver-class-name: org.h2.Driver
++#    url: jdbc:h2:mem:testdb
+   cloud:
+     config:
+       name: ecommerce
+Index: ../apigateway-service/target/classes/bootstrap.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring:\r\n  cloud:\r\n    config:\r\n      uri: http://127.0.0.1:8888\r\n      name: config-service\r\n#  profiles:\r\n#    active: prod
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../apigateway-service/target/classes/bootstrap.yml b/../apigateway-service/target/classes/bootstrap.yml
+--- a/../apigateway-service/target/classes/bootstrap.yml	(revision 0fcb478941c304dfc79692807fc7b2d0bcb010dd)
++++ b/../apigateway-service/target/classes/bootstrap.yml	(date 1732598372583)
+@@ -2,6 +2,6 @@
+   cloud:
+     config:
+       uri: http://127.0.0.1:8888
+-      name: config-service
++      name: ecommerce
+ #  profiles:
+ #    active: prod
+\ No newline at end of file
+Index: ../e-user-service/src/main/resources/bootstrap.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring:\r\n  cloud:\r\n    config:\r\n      uri: http://127.0.0.1:8888\r\n      name: ecommerce\r\n#  profiles:\r\n#    active: dev
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../e-user-service/src/main/resources/bootstrap.yml b/../e-user-service/src/main/resources/bootstrap.yml
+--- a/../e-user-service/src/main/resources/bootstrap.yml	(revision 0fcb478941c304dfc79692807fc7b2d0bcb010dd)
++++ b/../e-user-service/src/main/resources/bootstrap.yml	(date 1732604939853)
+@@ -2,6 +2,6 @@
+   cloud:
+     config:
+       uri: http://127.0.0.1:8888
+-      name: ecommerce
++      name: user-service
+ #  profiles:
+ #    active: dev
+\ No newline at end of file
+Index: ../config-service/src/main/resources/bootstrap.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../config-service/src/main/resources/bootstrap.yml b/../config-service/src/main/resources/bootstrap.yml
+new file mode 100644
+--- /dev/null	(date 1732604292130)
++++ b/../config-service/src/main/resources/bootstrap.yml	(date 1732604292130)
+@@ -0,0 +1,2 @@
++encrypt:
++  key: abcdefghijklmnopqrstuvwxyz0123456789
+\ No newline at end of file
