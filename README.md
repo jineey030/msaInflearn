@@ -99,3 +99,9 @@
 
 1. H2 Datasource password Encrypt #1 (대칭키)
 
+2. H2 Datasource password Encrypt #2 (비대칭키)
+
+#### [11] 마이크로서비스 간 통신
+
+1. Rest Template 사용: User-service 에서 Order-service 호출
+
