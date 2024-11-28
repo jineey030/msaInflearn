@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d001dfa-18db-40d4-9558-ca19d1b7da2b" name="Changes" comment="changed token.secret">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26__4_16__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26_오후_4_16_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26_오후_4_16_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27__10_23__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27_오전_10_23_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27_오전_10_23_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8d001dfa-18db-40d4-9558-ca19d1b7da2b" name="Changes" comment="add order-service.url">
       <change beforePath="$PROJECT_DIR$/../apigateway-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apigateway-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +59,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="config-files" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="config-files" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,6 +93,7 @@
       <workItem from="1732596063941" duration="6948000" />
       <workItem from="1732669489348" duration="1421000" />
       <workItem from="1732671218326" duration="576000" />
+      <workItem from="1732773289564" duration="2010000" />
     </task>
     <task id="LOCAL-00001" summary="changed token.secret">
       <option name="closed" value="true" />
@@ -124,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732671279998</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add order-service.url">
+      <option name="closed" value="true" />
+      <created>1732773824016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732773824016</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +154,7 @@
     <MESSAGE value="add confing file (user-service)" />
     <MESSAGE value="changed Encrypt Key" />
     <MESSAGE value="changed token.secret" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed token.secret" />
+    <MESSAGE value="add order-service.url" />
+    <option name="LAST_COMMIT_MESSAGE" value="add order-service.url" />
   </component>
 </project>

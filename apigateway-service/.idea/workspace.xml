@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add actuator config">
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26__4_16__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26_오후_4_16_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26_오후_4_16_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27__10_23__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27_오전_10_23_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27_오전_10_23_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-files/ecommerce.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-files/ecommerce.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,27 +60,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ApigatewayServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/msaInflearn/ecoomerce&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApigatewayServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/msaInflearn/config-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -138,7 +133,8 @@
       <workItem from="1731542211541" duration="7107000" />
       <workItem from="1732152895626" duration="8838000" />
       <workItem from="1732579842599" duration="5653000" />
-      <workItem from="1732670811479" duration="405000" />
+      <workItem from="1732670811479" duration="1093000" />
+      <workItem from="1732772216707" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="[commit] apigateway-service commit">
       <option name="closed" value="true" />

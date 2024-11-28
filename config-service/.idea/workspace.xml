@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65249a9a-3c53-4c81-82dd-338e81b4793a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26__4_16__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26_오후_4_16_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-26_오후_4_16_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27__10_23__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27_오전_10_23_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/shelf/Uncommitted_changes_before_Update_at_2024-11-27_오전_10_23_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="65249a9a-3c53-4c81-82dd-338e81b4793a" name="Changes" comment="add .idea files">
       <change beforePath="$PROJECT_DIR$/../apigateway-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apigateway-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jineey &lt;ohyejin9816@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -100,10 +100,24 @@
       <workItem from="1732176808554" duration="431000" />
       <workItem from="1732177306352" duration="313000" />
       <workItem from="1732579823235" duration="8906000" />
+      <workItem from="1732773550485" duration="810000" />
     </task>
+    <task id="LOCAL-00001" summary="add .idea files">
+      <option name="closed" value="true" />
+      <created>1732671891006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732671891006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea files" />
   </component>
 </project>
