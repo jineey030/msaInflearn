@@ -105,3 +105,5 @@
 
 1. Rest Template 사용: User-service 에서 Order-service 호출
 
+2. OpenFeign 사용: User-service 에서 Order-service 호출
+
