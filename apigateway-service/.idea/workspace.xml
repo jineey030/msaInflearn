@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add actuator config" />
+    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add actuator config">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
