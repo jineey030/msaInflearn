@@ -103,6 +103,5 @@
 
 #### [11] 마이크로서비스 간 통신
 
-1. Rest Template 사용
-➡ User-service 에서 Order-service 호출
+1. Rest Template 사용: User-service 에서 Order-service 호출
 
