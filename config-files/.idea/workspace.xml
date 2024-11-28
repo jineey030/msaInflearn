@@ -7,10 +7,9 @@
     <list default="true" id="8d001dfa-18db-40d4-9558-ca19d1b7da2b" name="Changes" comment="add order-service.url">
       <change beforePath="$PROJECT_DIR$/../apigateway-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apigateway-service/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <workItem from="1732596063941" duration="6948000" />
       <workItem from="1732669489348" duration="1421000" />
       <workItem from="1732671218326" duration="576000" />
-      <workItem from="1732773289564" duration="2010000" />
+      <workItem from="1732773289564" duration="2522000" />
     </task>
     <task id="LOCAL-00001" summary="changed token.secret">
       <option name="closed" value="true" />

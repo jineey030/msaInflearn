@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add actuator config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/EUserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/service/UserServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add actuator config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
