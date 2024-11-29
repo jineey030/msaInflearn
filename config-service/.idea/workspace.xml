@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65249a9a-3c53-4c81-82dd-338e81b4793a" name="Changes" comment="add .idea files">
-      <change beforePath="$PROJECT_DIR$/../apigateway-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apigateway-service/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/error/FeignErrorDecoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
