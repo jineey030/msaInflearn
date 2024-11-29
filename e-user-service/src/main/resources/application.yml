@@ -38,7 +38,7 @@ greeting:
 
 logging:
   level:
-    com.example.euserservice: DEBUG
+    com.example.euserservice.client: DEBUG
 
 management:
   endpoints:

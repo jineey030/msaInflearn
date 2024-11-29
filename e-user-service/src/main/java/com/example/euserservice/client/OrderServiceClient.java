@@ -10,8 +10,7 @@ import java.util.List;
 @FeignClient(name="order-service")
 public interface OrderServiceClient {
 
-    //interface는 모두 public으로 사용해야 하기 때문에 굳이 public을 명시하지 않아도 됨
-    @GetMapping("/order-service/{userId}/orders")
+    @GetMapping("/order-service/{userId}/orders_ng")
     List<ResponseOrder> getOrders(@PathVariable String userId);
 
 }
