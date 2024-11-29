@@ -107,3 +107,11 @@
 
 2. OpenFeign 사용: User-service 에서 Order-service 호출
 
+#### [12] 예외 처리
+
+1. Log 추가
+
+2. FeignException 처리
+
+3. FeginErrorDecoder 사용하여 에러 처리
+
