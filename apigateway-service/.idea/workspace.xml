@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5efe8b6d-c842-4fbb-904b-05c436a57c6d" name="Changes" comment="add actuator config">
-      <change afterPath="$PROJECT_DIR$/../e-user-service/src/main/java/com/example/euserservice/error/FeignErrorDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-files/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-serivce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-serivce/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +130,7 @@
       <workItem from="1732579842599" duration="5653000" />
       <workItem from="1732670811479" duration="1093000" />
       <workItem from="1732772216707" duration="1464000" />
+      <workItem from="1733208638287" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="[commit] apigateway-service commit">
       <option name="closed" value="true" />
